@@ -13,6 +13,11 @@
 .dark-2{
     color: #474747;
 }
+hr{
+    background: #757575;
+
+}
+
 .dark-3{
     color: #757575;
 }
@@ -142,4 +147,10 @@ main{
     padding: 30px;  
     
 
+}
+
+/* Resume section  */
+.resume-container{
+    display: flex;
+    gap: 24px;
 }
