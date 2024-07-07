@@ -1,0 +1,145 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+/* Shared Style  */
+.secondary-bg{
+    background: #fff8f3;
+}
+.dark-1{
+    color: #181818;
+}
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #fd6e0a;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    padding: 18px 35px;
+    border: none;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-des{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    
+}
+.text-center{
+    text-align: center;
+}
+/* Nav Style  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 200px;
+}
+nav .logo{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+nav ul li{
+    margin-right: 50px;
+    list-style-type: none;
+}
+ 
+nav ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+main section{
+    margin-top: 130px;
+
+}
+.header{
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+}
+/* banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-self: center; 
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    width: 585px;
+}
+.banner-greatings{
+    font-size: 45px;
+    padding-top: 150px;
+    margin: 0;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.banner-title{
+    margin: 0;
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-description{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-profile-pic{
+    width: 584px;
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* about */
+.about{
+    border-radius:10px;
+    padding: 130px 145px;
+    text-align: center;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item-des{
+    font-weight: 600
+}
+
+/* skills section  */
+.skills-container{
+    display: flex;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+    gap: 20px;
+}
+.skill{
+    padding: 30px;  
+    
+
+}
